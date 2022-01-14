@@ -14,11 +14,17 @@ main{
     width: 870px;
     padding: 30px;
 }
-.section-title{
-    color: #562EFF;
-    font-size: 24px;
+hr{
+  border: 1px solid #D1D1D1;
+  margin: top 29px;
 }
+
+
 /* top players style */
+.section-title{
+  color: #562EFF;
+  font-size: 24px;
+}
 .Player-name{
     margin-top: 3px;
 }
@@ -26,7 +32,7 @@ main{
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 29px;
+  grid-row-gap: 30px;
 }
 .player {
   display: flex;
@@ -36,6 +42,7 @@ main{
   height: 56px;
   width: 56px;
 }
+
 .player-name{
     color: #000000;
     font-size: 18px;
